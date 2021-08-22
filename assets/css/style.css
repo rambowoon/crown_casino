@@ -1,41 +1,164 @@
-* { margin: 0px; padding: 0px; box-sizing: border-box; }
-a { text-decoration: none; }
-img { max-width: 100%; height: auto; }
-body { background: url(../images/background.webp) center top no-repeat; background-size: cover; min-height: 100vh; font-size: 14px; }
-#full { min-height: 100vh;  height: 100%; padding-bottom: 0.1px;padding: 10px 0px;display: flex;align-items: center;}
-.wrap-logo{left: 0;top: 15px;width: 100%;position: absolute;}
-.logo img {max-width: 100%;}
-.wrap-content {max-width: 1920px;margin: 0px auto;width: 100%;padding: 0px 30px;position: relative;}
-#wrap-main{width: 100%;}
-#wrap-main .wrap-content{padding-left: 122px;position: relative;z-index: 9;}
-.title-zalo{margin-bottom: 15px;}
-.wrap-zalo{display: flex;justify-content: space-between;width: 50%;}
-.box-zalo{text-align: center;width: 47%;}
-.box-zalo .img-zalo{border:5px solid #F0B2D8;border-radius: 5px;margin-bottom: 10%;}
-.box-zalo img{width: 100%;display: block;}
-.box-zalo .btn-zalo{cursor: pointer;}
-
-.wrap-girl{position: absolute;right: 0px;bottom: 0px;z-index: 5;width: 100%;}
-.wrap-girl .wrap-content{position: relative;}
-.girl { position: absolute; right: 0px; bottom: 0px;width: 50%;}
-.girl img { display: block; width: 100%; }
-
-@media screen and (max-width:1366px) {
-	.title-zalo img{max-width: 500px;width: 100%;}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background: url(../images/background.webp) center top no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-size: 14px;
+}
+
+#full {
+  min-height: 100vh;
+  height: 100%;
+
+}
+
+.wrap-logo {
+
+  width: 100%;
+
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+.wrap-content {
+  max-width: 1920px;
+  margin: 0px auto;
+  width: 100%;
+  padding: 0px 30px;
+  position: relative;
+}
+
+#wrap-main {
+  width: 100%;
+}
+
+#wrap-main .wrap-content {
+  padding-left: 122px;
+  position: relative;
+  z-index: 9;
+}
+
+.title-zalo {
+  margin-bottom: 15px;
+}
+
+.wrap-zalo {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.box-zalo {
+  text-align: center;
+  width: 47%;
+}
+
+.box-zalo .img-zalo {
+  border: 5px solid #F0B2D8;
+  border-radius: 5px;
+  margin-bottom: 10%;
+  box-shadow: 8px 0px 10px #f0b2d8;;
+}
+
+.box-zalo img {
+  width: 100%;
+  display: block;
+}
+
+.box-zalo .btn-zalo {
+  cursor: pointer;
+}
+
+.wrap-girl {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: 5;
+  width: 100%;
+}
+
+.wrap-girl .wrap-content {
+  position: relative;
+}
+
+.girl {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 50%;
+}
+
+.girl img {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .title-zalo img {
+
+    width: 200px;
+  }
+}
+
 @media screen and (max-width:1024px) {
-	#full{display: block;}
-	.wrap-content {padding: 0px 15px !important;width: 74%;}
-	.wrap-zalo{width: 100%;}
-	.wrap-girl{position: relative;margin-bottom: 15px;}
-	.girl{position: relative;width: 75%;margin: 0px auto;}
+  #full {
+    display: block;
+  }
+
+  .wrap-content {
+    padding: 0px 15px !important;
+    width: 74%;
+  }
+
+  .wrap-zalo {
+    width: 100%;
+  }
+
+  .wrap-girl {
+    position: relative;
+    margin-bottom: 15px;
+  }
+
+  .girl {
+    position: relative;
+    width: 100%;
+    margin: 0px auto;
+  }
 }
+
 @media screen and (max-width:767px) {
-	.wrap-logo img{width: 90px;}
-	.wrap-content {width: 85%;}
-	.wrap-girl{padding-top: 80px;}
+  .wrap-logo img {
+    width: 70px;
+  }
+
+  .wrap-content {
+    width: 85%;
+  }
+
 }
+
 @media screen and (max-width:413px) {
-	.wrap-content {width: 100%;}
-	.wrap-girl{padding-top: 20px;}
+  .wrap-content {
+    width: 100%;
+  }
+
+  .wrap-girl {
+    padding-top: 20px;
+  }
 }
